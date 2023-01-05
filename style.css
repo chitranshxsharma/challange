@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#links{
+    display: flex;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+}
+#box{
+    
+    width: 10%;
+   display: flex;
+}
+#box h3{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: "Gilroy";
+}
+#cbox h2{
+    font-weight: 400;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#box #cbox{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    
+}
+#right{
+    top: 15;
+    left: 10%;
+    height: 60% ;
+    width: 40%;
+   
+    position: absolute;
+}
+#right #heading{
+    position: absolute;
+        top: 5%;
+        left: 2%;
+        font-family: "Gilroy";
+        color: white;
+        height: 100px;
+        width: 90%;
+}
+#right #heading h6{
+    font-size: 70px;
+        font-weight: 500;
+        font-family: "Gilroy";
+        margin-bottom: 25px;
+    color: black;
+}
+#right #heading p{
+    font-size: 17px;
+        font-weight: 200;
+        font-family: "Gilroy";
+        margin-bottom: 5px;
+    color: black;
+    word-spacing: 5px;
+
+
+}
+#right #enter{
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    font-family: "Gilroy";
+    background-color: rgba(196, 194, 194, 0.859);
+    height: 50px;
+    width: 80%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    }
+#right #enter h1{
+    font-size: 14px;
+        font-weight: 200;
+        font-family: "Gilroy";
+        color: black;
+        word-spacing: 3px;
+        top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+#right #enter #submit{
+    top: 50%;
+    right: 0%;
+    transform: translate(-10%,-50%); 
+    height: 80%;
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+}
+#right #enter #submit h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    color: #fff;
+    
+}
+#monkey{
+    top: 15%;
+    right: 10%;
+    height: 45% ;
+    width: 15%;
+    position: absolute;
+    border-radius: 10%;
+    background-color: #D5A900;
+    align-items: center;
+    justify-content: center;
+}
+#monkey #left{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    height: 90% ;
+    width: 90%;
+    background-image: url(https://ipfs.io/ipfs/QmUt2hNP4ehK34LHkqmeS4cCfScrNuK2VTxUphofNrmumR);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+    z-index: 999;
+
+}
+#monkey #react{
+    top: -15%;
+    left: -20%;
+    position: absolute;
+    height: 90% ;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+   
+    border-radius:10% ; 
+    background-image: url(https://media.nftb.io/media/thumbnails/nfts/HDl8g4zao1uwDYcFohKGx31649236276320.jpg);
+    
+    transform: rotate(-20deg);
+}
+#monkey h1{
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-family: "Gilroy";
+    font-size: 16px;
+    position: absolute;
+}
+#bottom{
+    bottom: 0%;
+    width: 100%;
+    height: 30%;
+    
+    position: absolute;
+
+}
+#bottom h1{
+    top: 2%;
+    left: 8%;
+    font-family: "Gilroy";
+    font-size: 20px;
+    position: absolute;
+
+}
+#bottom h2{
+    top: 2%;
+    right: 8%;
+    font-weight: 200;
+    font-family: "Gilroy";
+    font-size: 15px;
+    position: absolute;
+}
+#bottom #one{
+    top: 20%;
+    left: 10%;
+    height: 80%;
+    width: 15%;
+    background-image: url(https://media.nftb.io/media/thumbnails/nfts/OXv8vj7hemS6p81bpaOtER1649164746467.jpg);
+    background-color: coral;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#bottom #two{
+    top: 20%;
+    left: 30%;
+    height: 80%;
+    width: 15%;
+    background-image: url(https://ipfs.io/ipfs/QmQDQnAmfek1JQgJxpPpmbhyBqUo1xrSjrp9iw7BhvX6EE);
+    background-color: coral;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+#bottom #three{
+    top: 20%;
+    left: 50%;
+    height: 80%;
+    width: 15%;
+    background-image: url(https://media.nftb.io/media/thumbnails/nfts/AHqpZi2zB2ekpsyjLQPd3u1649162159320.jpg);
+    background-color: coral;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+#bottom #four{
+    top: 20%;
+    left: 70%;
+    height: 80%;
+    width: 15%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLftI13ABJ7VWN41ofHFWMq3PS9Vx7wqY7fQ&usqp=CAU);
+    background-color: coral;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
